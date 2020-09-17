@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './component/App';
 
 const array: string[] = [
-    "kolo", "okolo", "praha", "praha 2"
+    "test", "test2", "test with spaces", "suggestion", "fish"
 ]
 
 ReactDOM.render(

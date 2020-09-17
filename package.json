@@ -1,6 +1,6 @@
 {
   "name": "input-autocomplete-suggestions-reactjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReactJS librabry that allows to create input with autocompleteing suggestions.",
   "main": "lib/App",
   "types": "lib/App.d.ts",

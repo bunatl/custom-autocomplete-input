@@ -2,7 +2,10 @@
 ## ReactJS component library
 
 ## Description
-A npm library for ReactJS that autocompletes user's search inputs.
+- A npm library for ReactJS that autocompletes user's search inputs.
+- Lightweight library with no additional dependencies.
+- Hightly customizeable with parameters and personal styling
+- Use cases tested
 
 ## Installation
 ### npm
@@ -41,12 +44,16 @@ const arr = [ "suggestion", "suggestion2", "suggestion3" ];
     * _false_ Will show any matches ('sug' will trigger 'suggestion' and 'ish' will also trigger 'fish')
 - **customClassName** For better styling a dev can add custom classes (one string cotaning names of all classes, separated with a space)
 
+## Demo
+![Usage demo gif](demo.gif)
+
 ## Links
 - *GitHub* [link](https://github.com/bunatl/custom-autocomplete-input/)
+- *GitHub issues* [link](https://github.com/bunatl/custom-autocomplete-input/#issues)
 - *npm* [link](https://www.npmjs.com/package/input-autocomplete-suggestions-reactjs)
 
 ## Contributions
-All suggections and ideas are welcome!
+All suggestions and ideas are welcome!
 
 ## License
 MIT

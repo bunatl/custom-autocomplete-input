@@ -1,0 +1,42 @@
+/*
+div (customInputDeafultStyles)
+-input
+-div
+--divs
+*/
+.customInputDeafultStyles{
+    width: 100%;
+}
+
+.customInputDeafultStyles > input{
+    width: 100%;
+    font-size: 1em;
+    padding: .35em;
+    box-sizing: border-box;
+}
+
+/* container */
+.customInputDeafultStyles > div{
+    width: 100%;
+}
+
+/* suggestion items */
+.customInputDeafultStyles > div > div{
+    width: 100%;
+    padding: .5em;
+    box-sizing: border-box;
+    background: rgb(228, 225, 225);
+    border: 1px solid black;
+    border-radius: .25em;
+}
+
+.customInputDeafultStyles > div > div:hover{
+    width: 100%;
+    padding: .5em;
+    box-sizing: border-box;
+    background: rgb(187, 183, 183);
+    border: 1px solid black;
+    border-radius: .25em;
+    cursor: pointer;
+    font-weight: bold;
+}

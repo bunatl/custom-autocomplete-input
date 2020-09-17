@@ -1,0 +1,48 @@
+{
+  "name": "input-autocomplete-suggestions-reactjs",
+  "version": "1.0.0",
+  "description": "ReactJS librabry that allows to create input with autocompleteing suggestions.",
+  "main": "lib/App",
+  "types": "lib/App.d.ts",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "tsc -p . --noEmit false"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3",
+    "typescript": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunatl/custom-autocomplete-input.git"
+  },
+  "keywords": [
+    "reactjs",
+    "typescript",
+    "react-library",
+    "npm",
+    "npm-package"
+  ],
+  "author": "Lukas Bunat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bunatl/custom-autocomplete-input/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
